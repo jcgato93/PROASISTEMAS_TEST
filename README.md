@@ -17,10 +17,18 @@
 
 ### Para conocer el estado de resultados
 
-- sp_EstadoDeResultado
+- sp_EstadoDeResultado  
 
 
 ## 2. Sherlock String
+
+- Consumo del servicio
+
+`
+ GET  'http:\\localhost:port\sherlocksolutions\{s}'
+`
+
+***
 
 - La solucion al problema de hackerrank 
 
@@ -86,8 +94,28 @@
     }
 ```
 
-
 ## 3. Non-Divisible-subset
+
+- Consumo del servicio
+
+`
+ POST  'http:\\localhost:port\nondivisible'
+`
+ 
+
+```json
+// Content-Type: application/json
+// Body Request
+
+{
+    "k": 3,
+    "S" : [1,7,2,4]
+}
+
+```
+
+***
+
 
 - La solucion al problema de hackerrank
 
